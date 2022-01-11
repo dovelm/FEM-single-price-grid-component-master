@@ -33,14 +33,14 @@ Users should be able to:
 
 ### Screenshots
 
-![]()
+![](https://github.com/dusvimarin/FEM-single-price-grid-component-master/blob/main/screenshots/desktop.png)
 
-![]()
+![](https://github.com/dusvimarin/FEM-single-price-grid-component-master/blob/main/screenshots/mobile.jpeg)
 
 
 ### Links
 
-[My Solution]()
+[My Solution](https://dusvimarin.github.io/FEM-single-price-grid-component-master/)
 
 
 ## My process
