@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/*Variables css*/
+
+:root {
+    --primary-color:hsl(179, 62%, 43%);
+    --secundary-color:hsl(179, 47%, 52%);
+    --light-green-color:hsl(71, 73%, 54%);
+    --light-green-hover:hsl(71, 92%, 50%);
+    --primary-color-font:hsl(218, 22%, 67%);
+    --neutral-white:hsl(0, 0%, 100%);
+    --neutral-gray:hsl(204, 43%, 93%);
+    --primary-font-family: 'Karla', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: var(--neutral-gray);
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+}
+.container{
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, .25);
+    border-radius: 0 0 10px 10px;
+}
+.first{
+    background-color: var(--neutral-white);
+    border-radius: 10px 10px 0 0;
+}
+.title-one{
+    margin:35px;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+.title-two{
+    margin:0 35px 20px 35px;
+    font-size: 16px;
+    color:var( --light-green-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.text{
+    margin:0 35px 40px 35px;
+    color:var(--primary-color-font);
+    font-weight: 400;
+    line-height: 1.5;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content, .content-two{
+    width: 315px;
+    height: 270px;
+}
+.content, .content-two{
+    color: var(--neutral-white);
+    font-weight: 700;
+}
+.content{
+    background-color: var(--primary-color);
+    border-radius: 0 0 0 10px;
+}
+.content-two{
+    background-color: var(--secundary-color);
+    border-radius: 0 0 10px 0;
+}
+.title-three{
+    margin:40px 35px 20px 35px;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+.price{
+    margin: 0 35px 20px 35px;
+    font-size: 2rem;
+}
+.month, .tutorials{
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--neutral-gray);
+}
+.tutorials{
+    margin: 0 20px 5px 35px;
+}
+.access{
+    margin: 0 35px 40px 35px;
+    font-weight: 100;
+}
+.btn-primary{
+    width: 240px;
+    padding: 15px 0;
+    margin-left: 35px;
+    background-color: var(--light-green-color);
+    color: var(--neutral-gray);
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, .25);
+    transition: all .2s ease;
+ }
+ .btn-primary:hover{
+    background-color: var(--light-green-hover);
+    color:var(--neutral-white);
+    cursor: pointer;
+}
+
+/*Footer*/
+.attribution {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color:var(--primary-color);
+}
+
+/*Media queries*/
+
+@media (max-width: 629px) {
+    .container{
+        margin-top: 50px;
+        max-width: 315px;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        border-radius:0;
+    }
+    .content-two{
+        border-radius: 0 0 10px 10px;
+    }
+    .text{
+        margin-right: 25px;
+        font-size: 0.8rem;
+    }
+}
