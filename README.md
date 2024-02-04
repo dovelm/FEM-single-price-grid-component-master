@@ -33,14 +33,14 @@ Users should be able to:
 
 ### Screenshots
 
-![](https://github.com/dusvimarin/FEM-single-price-grid-component-master/blob/main/screenshots/desktop.png)
+![](https://github.com/dovelym/FEM-single-price-grid-component-master/blob/main/screenshots/desktop.png)
 
-![](https://github.com/dusvimarin/FEM-single-price-grid-component-master/blob/main/screenshots/mobile.png)
+![](https://github.com/dovelym/FEM-single-price-grid-component-master/blob/main/screenshots/mobile.png)
 
 
 ### Links
 
-[My Solution](https://dusvimarin.github.io/FEM-single-price-grid-component-master/)
+[My Solution](https://dovelym.github.io/FEM-single-price-grid-component-master/)
 
 
 ## My process
@@ -66,5 +66,5 @@ I learned to use elements flexbox.
 - Google chome/tools/development tools
 
 ## Author
-[@dusvimarin](https://github.com/dusvimarin)
+[@dusvy_m](https://github.com/dovelym)
 
