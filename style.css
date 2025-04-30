@@ -130,7 +130,8 @@ body{
     text-align: center;
 }
 .attribution a { 
-    color:var(--primary-color);
+    color: black;
+    font-weight: 500;
 }
 
 /*Media queries*/
