@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-[My Solution](https://dovelm.github.io/FEM-single-price-grid-component-master/)
+[My Solution](https://dovlym.github.io/FEM-single-price-grid-component-master/)
 
 
 ## My process
